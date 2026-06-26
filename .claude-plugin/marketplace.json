@@ -1,0 +1,22 @@
+{
+  "name": "claude-code-skills-collection",
+  "owner": {
+    "name": "Mochasu123",
+    "email": ""
+  },
+  "metadata": {
+    "description": "One-stop curated collection of 50+ Claude Code skills from top marketplaces",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agnes-ai-generation",
+      "description": "Agnes AI / Sapiens AI generation APIs for text, image, and video",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/agnes-ai-generation"
+      ]
+    }
+  ]
+}
